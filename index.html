@@ -6,6 +6,11 @@
     <title>chastain</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="eric@chastain.me">
+	  <script>
+		window.addEventListener('deviceorientation', function(event) {
+  			console.log(event.alpha + ' : ' + event.beta + ' : ' + event.gamma);
+		});
+	  </script>
   </head>
 <body>
 
