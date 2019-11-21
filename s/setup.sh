@@ -23,3 +23,6 @@ done
 ## now download programming library books
 echo Downloading some books...
 curl http://zsh.sourceforge.net/Doc/zsh_us.pdf > ~/Books/programming/shell/zsh_us.pdf
+
+cd ~/Source/shell
+git clone git@github.com:chastain/linux-docs.git
